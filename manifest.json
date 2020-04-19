@@ -1,0 +1,19 @@
+{
+  "name": "cookieme",
+  "version": "1.0",
+  "description": "Give me the cookies and leave me alone!",
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
